@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EventRandomizer</string>
+    <string name="ContentImageView">Contiene diversas imagenes de mapas</string>
+    <string name="ContenDice">Contiene un dado para obtener un número entre 1 y 6.</string>
+    <string name="DiceInfo">Comienza la aventura, pulsa el DADO para avanzar.\nCUIDADO, puedes encontrate enemigos</string>
+    <string name="ContinueButton">Continuar</string>
+    <string name="PickButton">Recoger</string>
+    <string name="ItemImage">Contiene un objeto</string>
+    <string name="ContentCityImage">Contiene una ciudad</string>
+    <string name="EnterButton">Entrar</string>
+    <string name="FightButton">Luchar</string>
+    <string name="FleeButton">Huir</string>
+    <string name="ContentEnemyImage">Encontraste a un enemigo</string>
+    <string name="ContentMerchantImage">Te has encontrado con un mercader</string>
+    <string name="CommerceButton">Comerciar</string>
+</resources>
