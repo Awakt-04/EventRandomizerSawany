@@ -18,5 +18,8 @@ class EnemyActivity :AppCompatActivity() {
         fightButton.setOnClickListener {
             startActivity(Intent(this,EnemyFightActivity::class.java))
         }
+        fleeButton.setOnClickListener {
+            startActivity(Intent(this,DiceActivity::class.java))
+        }
     }
 }
