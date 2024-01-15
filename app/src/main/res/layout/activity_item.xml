@@ -17,7 +17,7 @@
         app:srcCompat="@drawable/capsule" />
 
     <Button
-        android:id="@+id/PickupButton"
+        android:id="@+id/pickupButton"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="204dp"
         android:layout_height="wrap_content"
@@ -41,6 +41,6 @@
         android:text="@string/ContinueButton"
         android:textAllCaps="true"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/PickupButton"
+        app:layout_constraintStart_toEndOf="@+id/pickupButton"
         app:layout_constraintTop_toBottomOf="@+id/itemImage" />
 </androidx.constraintlayout.widget.ConstraintLayout>
