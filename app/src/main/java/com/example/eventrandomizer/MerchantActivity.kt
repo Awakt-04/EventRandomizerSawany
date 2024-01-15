@@ -12,8 +12,8 @@ class MerchantActivity :AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_merchant)
 
-        comerceButton = findViewById<Button>(R.id.comerceButton)
-        continueButton = findViewById<Button>(R.id.continueButton3)
+        comerceButton = findViewById(R.id.comerceButton)
+        continueButton = findViewById(R.id.continueButton3)
 
         comerceButton.setOnClickListener {
             startActivity(Intent(this,MerchantShopActivity::class.java))

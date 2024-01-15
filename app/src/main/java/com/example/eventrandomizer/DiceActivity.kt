@@ -20,11 +20,10 @@ class DiceActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dice)
 
-        scenario = findViewById<ImageView>(R.id.scenarioImage)
-        dice = findViewById<ImageButton>(R.id.diceButton)
+        scenario = findViewById(R.id.scenarioImage)
+        dice = findViewById(R.id.diceButton)
 
-        var imageRand = (1..4).random()
-        when (imageRand){
+        when ((1..4).random()){
             1 -> scenario.setImageResource(R.drawable.cave)
             2 -> scenario.setImageResource(R.drawable.city)
             3 -> scenario.setImageResource(R.drawable.field)
@@ -33,9 +32,8 @@ class DiceActivity : AppCompatActivity() {
 
 
         dice.setOnClickListener{
-            var face  = rollDice()
 
-            when (face){
+            when (rollDice()){
                 1,
                 2 -> {
                     Handler(Looper.getMainLooper()).postDelayed({

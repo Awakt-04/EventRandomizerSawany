@@ -13,8 +13,8 @@ class CityActivity :AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_city)
-        enterButton = findViewById<Button>(R.id.enterButton)
-        continueButton = findViewById<Button>(R.id.continueButton2)
+        enterButton = findViewById(R.id.enterButton)
+        continueButton = findViewById(R.id.continueButton2)
 
         enterButton.setOnClickListener {
             startActivity(Intent(this,CityEnterActivity::class.java))

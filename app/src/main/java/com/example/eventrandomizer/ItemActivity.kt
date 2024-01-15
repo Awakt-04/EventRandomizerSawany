@@ -3,7 +3,6 @@ package com.example.eventrandomizer
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
@@ -15,8 +14,8 @@ class ItemActivity :AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_item)
 
-        pickupButton = findViewById<Button>(R.id.pickupButton)
-        continueButton = findViewById<Button>(R.id.continueButton1)
+        pickupButton = findViewById(R.id.pickupButton)
+        continueButton = findViewById(R.id.continueButton1)
 
         pickupButton.setOnClickListener {
             val intent = Intent(this,DiceActivity::class.java)
